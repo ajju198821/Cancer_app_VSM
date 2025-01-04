@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # load the model
-model = tf.keras.models.load_model('123model.keras')
+model = tf.keras.models.load_model('newmodel.keras')
 
 def pridict_cancer(input_data):
     input_df=pd.DataFrame(input_data, index=[0])
